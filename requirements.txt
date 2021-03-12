@@ -1,0 +1,5 @@
+dash==1.19.0
+plotly
+numpy
+pandas
+gunicorn
