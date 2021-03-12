@@ -7,6 +7,8 @@ from utils import generate_formatted_dataframe, scatter_plot, generate_numpy, su
 external_stylesheets = ['https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
+
 
 app.layout = html.Div(className="content container", children=[
     html.H1(children="Group 1: Zach Lefkovitz, Aidan Morrison, Nathan Oleari, Nick Larson"),
